@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0px;
+}
+.logo{
+    width: 100%;
+    /* height: 100vh; */
+}
+.logo>img{
+    width: 50%;
+    /* height: 50px; */
+    float: left;
+}
+.menu {
+   
+   display: flex;
+   flex-direction: column;
+   flex: left;
+   height: 50%;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+
+ul li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 2px;
+    
+   
+}
+ul{
+    display: flex;
+}
+.header>img{
+    height: 150px;
+    width: 250px;
+    display: flex;
+
+    
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.manu1{
+    display: flex;
+    height: 100px;        
+    background-color: black;
+    color: white;
+    flex: left;
+    gap: 8px;
+    flex-direction: column;
+    
+}
+ul li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 8px;
+    
+   
+}
+
+ul{
+    display: flex;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+
+}
+.header td{
+    padding: 8px;
+}
+.header a:hover{
+    text-decoration: 1px solid underline black;
+}
+.menu2{
+    display: flex;
+    height: 50px;
+    
+    background-color:rgba(7, 7, 215, 0.69);
+    
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ ul li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    
+
+}
+ul{
+    display: flex;
+}
+img{
+    height: 100%;
+    width: 80%;
+    
+}
+    .header1 img{
+        margin: auto;
+        display: block;
+    }
+    .button{
+        height: 30px;
+        width: 100px;
+        position: relative;
+        
+    }
+  button:hover{
+    background-color: rgba(0, 0, 255, 0.615);
+    color: white;
+  }
+  
+    @media screen  and (max-width:800px) {
+        
+        ul{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+        }
+        .menu2{
+            height: auto;
+        }
+        
+    }
